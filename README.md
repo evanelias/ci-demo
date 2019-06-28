@@ -2,7 +2,7 @@
 
 This repo contains several sample database schemas, for use in demonstrating the [Skeema.io CI service](https://www.skeema.io/ci).
 
-To get an idea of the pull request schema change workflow, first browse the [example pull requests](https://github.com/skeema/ci-demo/pulls). On each pull request, you can see the automated CI comments on the Conversation tab, and linter annotations on the Checks tab. The Files Changed tab also shows the linter annotations inline, simplifying the code review process.
+To get an idea of the pull request schema change workflow, first browse the [example pull requests](https://github.com/skeema/ci-demo/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aopen+sort%3Acreated-asc+author%3Aevanelias). On each pull request, you can see the automated CI comments on the Conversation tab, and linter annotations on the Checks tab. The Files Changed tab also shows the linter annotations inline, simplifying the code review process.
 
 ## Interactive demo 1
 
