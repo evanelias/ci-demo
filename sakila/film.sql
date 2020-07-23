@@ -12,6 +12,7 @@ CREATE TABLE `film` (
   `rating` enum('G','PG','PG-13','R','NC-17') DEFAULT 'G',
   `special_features` set('Trailers','Commentaries','Deleted Scenes','Behind the Scenes') DEFAULT NULL,
   `last_update` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  streamable bool,
   PRIMARY KEY (`film_id`),
   KEY `idx_title` (`title`),
   KEY `idx_fk_language_id` (`language_id`),
